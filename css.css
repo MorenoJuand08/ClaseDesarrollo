@@ -1,0 +1,40 @@
+body,html {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: cadetblue;
+}
+
+section { 
+    background-color: darkgreen;
+    overflow: hidden;
+}
+
+nav{
+    background-color: aquamarine;
+    float: left;
+    display: inline-block;
+    width: 25%;
+}
+
+footer {
+    background-color:blueviolet ;
+    height: 80px;
+    
+}
+
+article {
+    width: 75%;
+    height: 250px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+
+#container {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: chocolate;
+}
