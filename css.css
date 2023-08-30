@@ -5,35 +5,35 @@ body,html {
 
 header {
     background-color: cadetblue;
-}
-
-section { 
-    background-color: darkgreen;
-    display: flex;
-    flex-direction: column-reverse;
+    height: 60px;
+    grid-area: header;
 }
 
 nav{
     background-color: aquamarine;
-    display: inline-block;
-    width: 25%;
+    grid-area: menu;
 }
 
 footer {
     background-color:blueviolet ;
     height: 80px;
-    
+    grid-area: footer;
 }
 
 article {
-    width: 75%;
     height: 250px;
     background-color: antiquewhite;
+    grid-area: content;
 }
-
 
 #container {
     margin: 0 auto;
     width: 1200px;
     background-color: chocolate;
+    display: grid;
+    grid-template-areas:
+    'header header header header'
+    'content content menu menu'
+    'footer footer footer footer'
+    ;
 }
